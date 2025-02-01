@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+.screen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.tradrcombo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+#logoname {
+  color: #64748b;
+  font-weight: 500;
+
+  font-size: 2rem;
+}
+.stockinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.moreinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#stocksticker {
+  color: #9ba9bd;
+}
+#stockprice {
+  color: #334155;
+  font-size: 3rem;
+}
+.upordown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.05rem;
+  color: #22c55e;
+  font-weight: 500;
+}
+.divsection {
+  width: 0.25rem;
+  border-radius: 100%;
+  height: 0.25rem;
+  background-color: #94a3b8;
+}
+.dollarincrease {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #b4becd;
+}
+.graph {
+  width: 100%;
+  flex-grow: 1;
+}
+#stockchart {
+  width: 100%;
+  height: 100%;
+}
